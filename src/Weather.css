@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainpage {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../public/weather.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerweather {
+  background: transparent;
+  padding: 20px;
+  width: 450px;
+  text-align: center;
+}
+
+.bigicon {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.input_areaa {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.input_areaa input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.add-btnn {
+  padding: 8px 10px;
+  background: rgb(42, 163, 243);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.weatherbox {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.temp_area h2 {
+  font-size: 35px;
+}
+
+.temp_area p {
+  font-size: 20px;
+  color: black;
+}
+
+.temp_area span {
+  font-size: 14px;
+  opacity: 0.6;
+  color: black;
+}
+
+.date_area {
+  background: #57caff;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px 0;
+  font-size: 25px;
+}
+
+.bottom_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  text-align: center;
+  font-size: 19px;
+}
+
+.item p {
+  color: black;
+  font-size: 16px;
+}
+
+.item span {
+  color: black;
+  font-size: 18px;
+}
